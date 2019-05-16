@@ -109,7 +109,7 @@ void Enemies::Update() {
                 int _space = list03[i]->space;
                 float _x = list03[i]->x + list03[i]->srcRect.w / 2;
                 float _y = list03[i]->y + list03[i]->srcRect.h / 2;
-                Core::oExplosion->oList.push_back(new Effect(_x, _y, _space, "ExplosionBonus", 3, 6));
+                Core::oExplosion->oList.push_back(new Effect(_x, _y, (_space / 5) * 6, "ExplosionBonus", 3, 6));
             }
 
             list03[i]->Destroy(list03, i);
