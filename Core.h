@@ -3,6 +3,7 @@
 
 #include <map>
 #include <SDL.h>
+#include <cstdlib>
 #include <iostream>
 #include <SDL_image.h>
 
